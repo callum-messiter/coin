@@ -150,7 +150,7 @@ const thiefNode = new Blockchain(users.thief);
 
 // Create transactions
 const transactionsTampered = [
-	new Transaction(users.thief, users.carol, 1000000),
+	new Transaction(users.carol, users.thief, 1000000),
 	new Transaction(users.dave, users.thief, 5), 
 	new Transaction(users.dave, users.carol, 1)
 ];
